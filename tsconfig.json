@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "module": "commonjs", // habilita importaçaõ e exportação para import/export
+        "target": "ES2019",
+        "esModuleInterop": true, // require e module.export => import e export
+        "allowJs": true // permite arquivos JS irem para a dist
+    }
+}
